@@ -22,7 +22,7 @@ python app.py
     
 NOTE: Ensure that POST requests are in JSON format. This means explicitly setting "Content-Type" to "application/json" whenever you call these POST methods. If testing in Postman, this is usually the default, but can be changed by adding a row to the "Headers" section with key "Content-Type" and value "application/json". 
 
-If you are testing in the terminal, first ensure the API has been started, then use the following command for GET (only balance endpoint):
+If you are testing in the terminal, first ensure the API has been started, open a new terminal, then use the following command for GET (only balance endpoint):
 ```bash
 curl {url}/balance
 ```
